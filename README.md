@@ -9,6 +9,9 @@
 
 4-Creamos la carpeta src dentro de esta carpetas se adicionan otras carpetas que seran: :white_check_mark:controllers:white_check_mark:db:white_check_mark:routes
 
+5-A la misma linea de las carpetas recien creadas se crea un archivo llamado app.js y otro llamado :zap:index.js(Este es donde convergen todos los archivos):zap: y por ultimo se crea el archivo config.js
+
+
 
 
 
