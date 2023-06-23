@@ -7,4 +7,8 @@
 
 3-vamos a instalar el paquete express ejecutando dentro de consola el comando npm i express
 
+4-Creamos la carpeta src dentro de esta carpetas se adicionan otras carpetas que seran: :white_check_mark:controllers--:white_check_mark:db--:white_check_mark:routes
+
+
+
 
