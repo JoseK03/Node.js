@@ -89,7 +89,8 @@
 
 44-Remplazamos el contenido de la around function por una constante que almacene el getconnection que acabamos de importar y lo metemos en un tryCatch
 
-45- agregamos una const donde haremos el await connection.query("SELECT * FROM tabla_requerida")
+45- agregamos una const donde haremos el await connection.query("SELECT * FROM tabla_requerida"), luego volvemos a colocar nuestro res.json con parametro la misma constante anterior
+
 
 
 

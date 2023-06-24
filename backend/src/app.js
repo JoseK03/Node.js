@@ -3,8 +3,8 @@ import categoriasRoutes from "./routes/categorias.routes.js"
 
 const app = express();
 
-app.set("port", 5500);
+app.set("port", 5502);
 
-app.use(categoriasRoutes);
+app.use("/api/categoria",categoriasRoutes);
 
 export default app;
