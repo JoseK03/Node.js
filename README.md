@@ -41,7 +41,24 @@
 
 20-tumbar por ultima vez el puerto y volverlo a levantar
 
-21-dentro
+21-dentro de routes creamos el archivo de una ruta en este caso categorias.routes.js
+
+22-dentro de ese archivo importamos a {Router} from "express"
+
+23-Guardamos esta importacion en una variable y luego la exportamos
+
+24-En la carpeta controllers creamos un archivo .controllers.js en el cual por medio de una constante que equivale un arround function (req,res)=>{} con parametro el request y el response.
+
+25-Dentro de la function hacemos un res.json({"ejemplo" : "json"})
+
+26-Exportamos unaa variable puede ser llamado methodHTTP que será igual a {nombre de la constante #24}
+
+27-Vamos al archivo .routers.js y Se hace un .get a la variable con parametros la url de donde se va a recibir la req y lo que se va a ejecutar cuando llegue la req en esa ruta 
+
+28-Vamos a app.js e importamos a router pero puede ser cualquier palabra clave para importarlo ya que es un export default 
+
+29-Colocamos la ruta dentro de app.js con la variable que valia el express y como  parametro la palabra clave con la que acabamos de inportar de routes
+
 
 
 
