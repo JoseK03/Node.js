@@ -9,6 +9,6 @@ const getCotizacion = (req,res)=>{
     }
 }
 
-export default methodHTTP = {
+export const methodHTTP = {
     getCotizacion
 };
