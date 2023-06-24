@@ -57,11 +57,11 @@
 
 28-Vamos a app.js e importamos a router pero puede ser cualquier palabra clave para importarlo ya que es un export default 
 
-29-Colocamos la ruta dentro de app.js con la variable que valia el express y como  parametro la palabra clave con la que acabamos de inportar de routes
+29-Colocamos la ruta dentro de app.js con la variable que valia el express.use y como  parametro la palabra clave con la que acabamos de inportar de routes
 
 30.en .routers.js importamos con llaves  a methodHTTP y podriamos cambiarle el nombre por medio de la palabra reservada as
 
-31-Vamos a .env y creamos la conexion a la base de datos con los parametros :white_check_mark:HOST:white_check_mark:DATABASE:white_check_mark:USER:white_check_mark:PASSWORD
+31-Vamos a .env y creamos la conexion a la base de datos con los parametros :white_check_mark=> HOST:white_check_mark:DATABASE:white_check_mark:USER:white_check_mark:PASSWORD
 
 32-Despues de llenar nuestro .nev instalamos nuestro paquete :pushpin:npm i dotenv
 
