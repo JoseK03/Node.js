@@ -1,6 +1,7 @@
 fom getCategorias from "./../db/database.js"
 const getCategorias =  (req,res) => {
-    const connection = getConnection();
+    const connection = await getConnection();
+    const result = await connection.query("SELECT * FROM categorias")
 }
 
 export const methodHTTP = {
