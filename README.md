@@ -47,7 +47,7 @@
 
 23-Guardamos esta importacion en una variable y luego la exportamos de manera default
 
-24-En la carpeta controllers creamos un archivo .controllers.js en el cual por medio de una constante que equivale un arround function (req,res)=>{} con parametro el request y el response.
+24-En la carpeta controllers creamos un archivo .controllers.js en el cual creamos una constante que nos traera info dela db getCategoria que equivale un arround function (req,res)=>{} con parametro el request y el response.
 
 25-Dentro de la function hacemos un res.json({"ejemplo" : "json"})
 
