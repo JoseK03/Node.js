@@ -61,7 +61,7 @@
 
 30.en .routers.js importamos con llaves  a methodHTTP y podriamos cambiarle el nombre por medio de la palabra reservada as
 
-31-Vamos a .env y creamos la conexion a la base de datos con los parametros :white_check_mark=> HOST:white_check_mark:DATABASE:white_check_mark:USER:white_check_mark:PASSWORD
+31-Vamos a .env y creamos la conexion a la base de datos con los parametros :white_check_mark:HOST:white_check_mark:DATABASE:white_check_mark:USER:white_check_mark:PASSWORD
 
 32-Despues de llenar nuestro .nev instalamos nuestro paquete :pushpin:npm i dotenv
 
@@ -69,7 +69,7 @@
 
 34-invocamos la funcion config()
 
-35-exportamos de forma default la funcion config a manera de objeto llamando las variables del .env pero dandoles como valor el mismo valor pero de una manera mas segura:  host: process.env.HOST (el primero puede ser en minuscula pero el segundo si debe ser en mayuscula)
+35-exportamos de forma default la funcion config a manera de objeto llamando las variables del .env pero dandoles como valor el mismo valor pero de una manera mas segura=>   host: process.env.HOST (el primero puede ser en minuscula pero el segundo si debe ser en mayuscula)
 
 36-Creamos una carpeta llamada db a la misma linea de routes y creamos un archivo llamado database.js
 
