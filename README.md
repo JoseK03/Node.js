@@ -75,6 +75,22 @@
 
 37-dentro de consola ejecutamos el siguiente comando :pushpin: npm i promise-mysql
 
+38-dentro de database.js importamos mysql from promise-mysql
+
+39-importamos a config
+
+40- Creamos una constante connection que será igual mysql que se acab de importar mysql.createConneccion({host: config.host separados con coma y asi con los otros datos de .env})
+
+41-vamos a retornar la connection con un around function dentro de una const
+
+42-exportamos por default la constante que returna la connection
+
+43-Importamos en .controllers.js el getConnection
+
+44-Remplazamos el contenido de la around function por una constante que almacene el getconnection que acabamos de importar
+
+45-
+
 
 
 

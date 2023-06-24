@@ -1,5 +1,6 @@
+fom getCategorias from "./../db/database.js"
 const getCategorias =  (req,res) => {
-    res.json({"ejemplo" : "json"});
+    const connection = getConnection();
 }
 
 export const methodHTTP = {
