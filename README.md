@@ -45,7 +45,7 @@
 
 22-dentro de ese archivo importamos a {Router} from "express"
 
-23-Guardamos esta importacion en una variable y luego la exportamos
+23-Guardamos esta importacion en una variable y luego la exportamos de manera default
 
 24-En la carpeta controllers creamos un archivo .controllers.js en el cual por medio de una constante que equivale un arround function (req,res)=>{} con parametro el request y el response.
 
