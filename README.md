@@ -87,9 +87,9 @@
 
 43-Importamos en .controllers.js el getConnection
 
-44-Remplazamos el contenido de la around function por una constante que almacene el getconnection que acabamos de importar
+44-Remplazamos el contenido de la around function por una constante que almacene el getconnection que acabamos de importar y lo metemos en un tryCatch
 
-45-
+45- agregamos una const donde haremos el await connection.query("SELECT * FROM tabla_requerida")
 
 
 
