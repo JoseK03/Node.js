@@ -53,7 +53,7 @@
 
 26-Exportamos unaa variable puede ser llamado methodHTTP que será igual a {nombre de la constante #24}
 
-27-Vamos al archivo .routers.js y Se hace un .get a la variable con parametros la url de donde se va a recibir la req y lo que se va a ejecutar cuando llegue la req en esa ruta 
+27-Vamos al archivo .routers.js y Se hace un .get a la variable con parametros la url de donde se va a recibir la req ("/") y lo que se va a ejecutar cuando llegue la req en esa ruta que sera la misma palabra que colocaremos mas adelante ennuestro #30.lo que contiene nuestra variable methodHTTP 
 
 28-Vamos a app.js e importamos a router pero puede ser cualquier palabra clave para importarlo ya que es un export default 
 
@@ -81,16 +81,17 @@
 
 40- Creamos una constante connection que será igual mysql que se acab de importar mysql.createConneccion({host: config.host separados con coma y asi con los otros datos de .env})
 
-41-vamos a retornar la connection con un around function dentro de una const
+41-vamos a retornar la connection con un around function dentro de una const getConnection
 
 42-exportamos por default la constante que returna la connection
 
 43-Importamos en .controllers.js el getConnection
 
-44-Remplazamos el contenido de la around function por una constante que almacene el getconnection que acabamos de importar y lo metemos en un tryCatch
+44-Remplazamos el contenido de la around function por una constante que almacene el getconnection que acabamos de importar y lo metemos en un tryCatch por ende tendra los parametros await
 
 45- agregamos una const donde haremos el await connection.query("SELECT * FROM tabla_requerida"), luego volvemos a colocar nuestro res.json con parametro la misma constante anterior
 
+46-El en error de nuestro tryCatch colocamo sun res.status(500) y un res.send(error.message)
 
 
 

@@ -1,8 +1,8 @@
-import { Router } from "express";
-import { methodHTTP as contructoraController} from "../controllers/constructuras.controllers.js";
+import {Router} from "express";
+import {methodHTTP as constructoraController} from "../controllers/constructuras.controllers.js";
 
 const router = Router();
-router.get("/api/constructuras", respuesta);
+router.get("/", constructoraController.getConstructora);
 
 
 export default router;

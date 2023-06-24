@@ -6,3 +6,6 @@ const main = () =>{
 }
 
 main();
+
+//?=> tablas de la base de datos alquilartemis:
+    //todo-> categorias//constructoras//cotizaciones//empleados//productos//productos_x_cotizacion
